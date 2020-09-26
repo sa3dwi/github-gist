@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchList component UI matches the snapshot 1`] = `
+<div
+  className="wrap"
+  data-testid="searchListWarp"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row d-flex justify-content-center alert"
+    />
+  </div>
+</div>
+`;

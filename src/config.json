@@ -1,0 +1,6 @@
+{
+    "api_github_search": "https://api.github.com/users/{username}/gists",
+    "min_search_characters": 2,
+    "max_search_characters": 50,
+    "local_storage_key": "gistresentsearch"
+}

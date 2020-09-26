@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component UI matches the snapshot 1`] = `
+Array [
+  <header>
+    <div
+      className="container"
+    >
+      <div
+        className="MainLogo"
+      >
+        <h3>
+          <img
+            alt="gitHub_logo"
+            height="64"
+            src="images/gitHub_logo.png"
+            width="64"
+          />
+          GitHub Gist Search
+        </h3>
+        <h6>
+          Search with username below
+        </h6>
+      </div>
+      <div
+        className="mainSearch"
+      >
+        <input
+          autoComplete="off"
+          className="MainInput"
+          data-testid="searchInput"
+          id="q"
+          maxLength={50}
+          name="q"
+          onChange={[Function]}
+          onKeyPress={[Function]}
+          placeholder="Start typing to search .."
+          type="search"
+        />
+        <button
+          className="MainInput"
+          data-testid="submitSearchBtn"
+          onClick={[Function]}
+          type="submit"
+        >
+          Search
+        </button>
+      </div>
+      <div
+        data-testid="resentSearch"
+      />
+    </div>
+  </header>,
+  <div
+    className="wrap"
+    data-testid="searchListWarp"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row d-flex justify-content-center alert"
+      >
+        No Results found
+      </div>
+    </div>
+  </div>,
+]
+`;

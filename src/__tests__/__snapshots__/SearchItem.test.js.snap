@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchItem component UI matches the snapshot 1`] = `
+<li
+  className="list-item"
+>
+  <div>
+    <span
+      className="strong7"
+    >
+      Description: 
+    </span>
+     
+    <p>
+       
+       
+    </p>
+    <br />
+    <span
+      className="strong7"
+    >
+      Comments: 
+    </span>
+     
+    <br />
+    <span
+      className="strong7"
+    >
+      Created at: 
+    </span>
+     
+    <br />
+    <span
+      className="strong7"
+    >
+      Updated at: 
+    </span>
+     
+    <br />
+    <ul
+      className="flex-list flex-item"
+    >
+      
+    </ul>
+    <ul
+      className="flex-list flex-item"
+    >
+      <img
+        alt="forkList"
+        height="16"
+        src="./../../../images/fork.png"
+        width="16"
+      />
+      <span>
+        No forks
+      </span>
+    </ul>
+  </div>
+  <div>
+    <a
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Browse Gist page
+    </a>
+  </div>
+</li>
+`;

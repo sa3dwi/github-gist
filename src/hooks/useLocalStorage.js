@@ -32,7 +32,7 @@ export const useLocalStorage = (key, initialValue) => {
 
   const clearStore = () => {
     window.localStorage.clear();
-    setStoredValue([]);
+    setStoredValue('');
   };
 
   return [storedValue, setValue, clearStore];

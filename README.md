@@ -42,13 +42,19 @@ Also, be sure to have `git` available in your PATH, `npm` might need it (You can
 
 Open `github-gist/src/config.json` then edit it with your settings:
 
-- min search characters
-- max search characters
-- localstorage key 
+- minimum search characters
+- maximum search characters
+- localstorage key name
 
-## Teasting 
+## Run App
 
-    $ cd github-gist
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+    $ yarn start
+
+## Testing 
+
     $ yarn test
 
 ----
